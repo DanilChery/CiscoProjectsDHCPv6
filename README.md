@@ -2,6 +2,7 @@
 ## Build the Network and Configure Basic Device Settings  
 ### •	Configure basic settings for each switch. (Optional)  
 ### •	Assign a device name to the switch  
+![alt-текст](https://github.com/DanilChery/CiscoProjectsDHCPv6/blob/main/lab-dhcp-schema.jpg "Текст заголовка логотипа 1")   
 ### •	Disable DNS lookup to prevent the router from attempting to translate incorrectly entered commands as though they were host names.  
 no ip domain-lookup  
 ### •	Assign class as the privileged EXEC encrypted password  
@@ -186,3 +187,8 @@ ping 2001:DB8:ACAD:2::1/64
 2001:DB8:ACAD:2::1 icmp6_seq=5 ttl=63 time=7.066 ms  
   
   
+
+[R1-Config](https://github.com/DanilChery/CiscoProjectsDHCPv6/blob/main/lab-dhcp-r1.txt "")  
+[r2-Config](https://github.com/DanilChery/CiscoProjectsDHCPv6/blob/main/lab-dhcp-r2.txt "")  
+[S1-Config](https://github.com/DanilChery/CiscoProjectsDHCPv6/blob/main/lab-dhcp-s1.txt "")  
+[S2-Config](https://github.com/DanilChery/CiscoProjectsDHCPv6/blob/main/lab-dhcp-s2.txt "")  
